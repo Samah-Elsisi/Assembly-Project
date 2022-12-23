@@ -142,7 +142,7 @@ registeration:
   
   mov ah,01h
   int 21h
-  jmp invalidChoice
+  
  
   mov ah, 09h 
   mov dx, offset msg3  
